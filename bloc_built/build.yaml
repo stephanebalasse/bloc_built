@@ -1,0 +1,14 @@
+targets:
+  $default:
+    builders:
+      bloc_helper:
+        enabled: true
+
+builders:
+  bloc_helper:
+    import: 'package:bloc_built/builder.dart'
+    builder_factories: ["blocBuilt"]
+    build_extensions: {".dart": [".g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]

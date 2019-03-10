@@ -1,0 +1,27 @@
+name: bloc_helper_example
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc_annotation:
+    path: ../bloc_annotation/
+  rxdart: ^0.20.0
+
+dev_dependencies:
+  build_runner: 1.0.0
+  flutter_test:
+    sdk: flutter
+  bloc_built:
+    path: ../bloc_built/
+
+dependency_overrides:
+  bloc_annotation:
+    path: ../bloc_annotation
+
+

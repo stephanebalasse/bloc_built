@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bloc_annotation/bloc_annotation.iml" filepath="$PROJECT_DIR$/bloc_annotation/bloc_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bloc_built/bloc_built.iml" filepath="$PROJECT_DIR$/bloc_built/bloc_built.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/bloc_built.dart.iml" filepath="$PROJECT_DIR$/.idea/bloc_built.dart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bloc_helper_example/bloc_helper_example.iml" filepath="$PROJECT_DIR$/bloc_helper_example/bloc_helper_example.iml" />
+    </modules>
+  </component>
+</project>
