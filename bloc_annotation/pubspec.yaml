@@ -1,8 +1,8 @@
 name: bloc_annotation
 description: Generates the BLoC Boilerplate.
-version: 0.0.1
-author: Stephane Balasse
-homepage:
+version: 0.0.2
+author: Stephane Balasse <stephane.balasse@gmail.com>
+homepage: https://github.com/stephanebalasse/bloc_built
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

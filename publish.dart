@@ -19,9 +19,9 @@ void main() async {
 
   print('Confirm publish ? (y/n)');
   if (stdin.readLineSync().trim() == 'y') {
-    await publish("built_bloc");
-    await publish("built_bloc_generator");
-    await publish("flutter_built_bloc");
+    await publish("built_annotation");
+    await publish("bloc_built");
+    await publish("bloc_helper_example");
   }
 
   await updatePubspec("bloc_built", (content) {
